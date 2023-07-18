@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+<div class="header">
+
+</div>
+
+<h1 class="headertext">Welcome To Quiz Zone</h1>
+<br>
+<center>
+    <input type="radio" name="btn" id="unlimited"> <span class="ulm"> Take exam with unlimited time</span>
+    <input type="radio" name="btn" id="limited">  <span class="lm"> Take exam with limited time</span>
+</center>
+    <br>
+    <hr>
+    <button onclick="start()" id="start">Start test</button>
+    <div>
+        <span id="question">Question</span>
+        <br>
+        <input type="radio" name="opt" id="answer1">
+        <label for="answer1">Option1</label>
+        <br>
+        <input type="radio" name="opt" id="answer2">
+        <label for="answer2">Option2</label>
+        <br>
+        <input type="radio" name="opt" id="answer3">
+        <label for="answer3">Option3</label>
+        <br>
+        <input type="radio" name="opt" id="answer4">
+        <label for="answer4">Option4</label>
+        <br>
+    </div>
+    <span id="minutes">00</span><span>:</span><span id="seconds">00</span>
+</body>
+<script src="index.js"></script>
+</html>
